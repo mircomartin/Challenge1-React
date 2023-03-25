@@ -1,4 +1,4 @@
-Challenge React: (Ademas le agregue TS era solo JS, pero le hice un add de Tyspescript)
+Challenge React:
 
 Apis
 
@@ -8,3 +8,9 @@ Apis
 - Recupera un hecho aleatorio de gatos de la primera api
 - Recupera la primera palabra del hecho
 - Muestra una imagen de un gato con la primera palabra.
+
+Extras:
+
+Resolucion con custom hook.
+Button, para pedi nueva cita.
+Typescript, en vez de JS.
