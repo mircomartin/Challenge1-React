@@ -22,14 +22,16 @@ export const useFactHook = () => {
 
 		if ( fact ) {
 
-			getImageFromApi(fact).then(res => {
-				let test = res;
-				setFirstWord( {
-					word: fact.split(' ')[0],
-					src: `https://cataas.com/${test}`
-				} )
-
-		 })
+			getImageFromApi(fact)
+				.then(res => 
+					{ 
+						let url = res;
+						setFirstWord( {
+							word: fact.split(' ')[0],
+							src: `https://cataas.com/${url}`
+						} )
+		 			}
+				)
 
 		}
 
